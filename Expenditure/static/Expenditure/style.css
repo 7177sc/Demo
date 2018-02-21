@@ -1,0 +1,56 @@
+body {
+    background: white url("images/background.png");
+}
+
+ul.errorlist {
+    padding-left: 0;
+}
+
+ul.errorlist > li {
+    list-style: none;
+}
+
+.navbar {
+    border-radius: 0;
+}
+
+.navbar-brand {
+    font-family: 'Satisfy', cursive;
+}
+
+.glyphicon-star {
+    color: #CCCCCC;
+    font-size: 16px;
+}
+
+.glyphicon-star.active {
+    color: #FDB230;
+}
+#id_product_name{
+width:300px;
+height:30px;
+}
+
+#id_quantity{
+width:240px;
+height:30px;
+}
+
+#id_unit{
+height:30px;
+width:60px;
+}
+
+#id_price{
+height:30px;
+}
+
+#id_category{
+height:30px;
+}
+
+#id_logInWindow{
+display: flex;
+justify-content: center;
+}
+
